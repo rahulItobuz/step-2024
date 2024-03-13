@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "prod": "dotenv -e .envProd nodemon ./src/index.js",
+    "prod": "dotenv -e .env.prod nodemon ./src/index.js",
     "dev": "dotenv -e .env nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
